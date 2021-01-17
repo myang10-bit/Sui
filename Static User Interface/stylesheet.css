@@ -1,0 +1,66 @@
+﻿body {
+    font-family: "Lato", sans-serif
+}
+
+.navbar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #eeff41;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+    .navbar {
+        padding: 6px 6px 6px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+    }
+
+        .navbar a:hover {
+            color: #f1f1f1;
+        }
+
+@media screen and (max-height: 450px) {
+    .navbar {
+        padding-top: 15px;
+    }
+
+        .navbar a {
+            font-size: 18px;
+        }
+
+    h1 {
+        font-size: 40px;
+        margin-left: 200px;
+        
+    }
+
+    h2 {
+        margin-left: 200px;
+    }
+
+
+    h3 {
+        float: right;
+    }
+
+
+
+
+        footer {
+        }
+
+        .social {
+            margin-left: 200px;
+            font-size: 1.3em;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+    }
+
